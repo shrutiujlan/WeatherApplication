@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- fontawesome -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+
+  </head>
+  <body>
+        <div class="container weather report">
+          <div class="row">
+        <div class="col-lg-6">
+          <h1><%= query %>,<%= country %></h1>
+          <h1><img src=<%= imgUrl %>><%= temp %> °C</h1>
+
+        </div>
+        <div class="col-lg-6">
+          <h3><img src="wind1.png" alt=""> Wind: <%= wind%> km/hr</h3>
+          <h3><img src="humidity 1.png" alt=""> Humidty: <%= humidity%>%</h3>
+          <h3><img class= "image-r" src=<%= imgUrl %>> Feels like: <%= feelsLike%> °C</h3>
+            </div>
+        </div>
+
+        <h3>The weather is currently <%=descrip %></h3>
+        <div class="container para">
+
+
+
+      </body>
+    </html>

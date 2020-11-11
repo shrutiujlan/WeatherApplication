@@ -1,0 +1,41 @@
+body{
+text-align: center;
+}
+h1,h3,h4{
+  /* padding-bottom: 20px; */
+  color: #fff;
+}
+#cityInput{
+  margin-bottom: 30px;
+}
+.fa-snowflake{
+  color: #fff;
+  width :20px;;
+}
+.report{
+  width: 1000px
+}
+.weather{
+  background-color: #41aea9;
+  padding: 50px;
+  margin-top: 100px;
+text-align: center;
+display: block;
+position: relative;
+}
+
+.home{
+    width:500px;
+  height: 400px;
+}
+.home h1{
+  padding-bottom: 30px;
+}
+.image-r{
+  height:40px;
+  width: 40px;
+}
+.image-h{
+  height:100px;
+  width: 100px;
+}
